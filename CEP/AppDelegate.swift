@@ -15,6 +15,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        if let statusBar = UIApplication.shared.value(forKey: "statusBar") as? UIView {
+            
+            
+            let navigationBarAppearace = UINavigationBar.appearance()
+            navigationBarAppearace.tintColor = UIColor.white
+            navigationBarAppearace.barTintColor = UIColor.white
+            navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+            
+           
+            
+            if let backColor = UIColor(hexString: "#3A7BD5"){
+                
+              statusBar.backgroundColor = UIColor.init(red: 15.0/255, green: 146/255, blue: 212/255, alpha: 1)
+                
+            }
+        }
         // Override point for customization after application launch.
         return true
     }
@@ -39,6 +56,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func image(fromLayer layer: CALayer) -> UIImage {
+        UIGraphicsBeginImageContext(layer.frame.size)
+        layer.render(in: UIGraphicsGetCurrentContext()!)
+        let outputImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return outputImage!
     }
 
 

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984C6A05FD89467CC3346410 /* Pods_CEP_CEPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3178DCF365F95EEE0596645B /* Pods_CEP_CEPTests.framework */; };
+		F2CA285039299A3018F3EE94 /* Pods_CEPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E6DC3AA121D578DD6ADB0 /* Pods_CEPUITests.framework */; };
+		F31A951821BF853F00387575 /* StoreSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A951721BF853F00387575 /* StoreSettingsViewController.swift */; };
+		F355F5AE21AD1885004D8809 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F5AD21AD1885004D8809 /* ApiHelper.swift */; };
+		F355F5B021AD1A3E004D8809 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F5AF21AD1A3E004D8809 /* EndPoints.swift */; };
+		F355F5B221AE558B004D8809 /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F5B121AE558A004D8809 /* EnterPasswordViewController.swift */; };
+		F35CAEDD21B05A880066A5DC /* IndustryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C2B84219712CF0097BA5F /* IndustryViewController.swift */; };
+		F361DE4521C007C60003368B /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F361DE4421C007C60003368B /* iOSDropDown.framework */; };
+		F361DE4721C128D60003368B /* InvoicePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361DE4621C128D60003368B /* InvoicePreviewViewController.swift */; };
+		F361DE4921C1787D0003368B /* InvoiceSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361DE4821C1787D0003368B /* InvoiceSettingsViewController.swift */; };
+		F361DE4B21C283220003368B /* PreviewInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361DE4A21C283220003368B /* PreviewInvoiceViewController.swift */; };
 		F3694E94219567F00038492F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3694E93219567F00038492F /* AppDelegate.swift */; };
 		F3694E96219567F00038492F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3694E95219567F00038492F /* ViewController.swift */; };
 		F3694E99219567F00038492F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3694E97219567F00038492F /* Main.storyboard */; };
@@ -14,6 +25,17 @@
 		F3694E9E219567F10038492F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3694E9C219567F10038492F /* LaunchScreen.storyboard */; };
 		F3694EA9219567F20038492F /* CEPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3694EA8219567F20038492F /* CEPTests.swift */; };
 		F3694EB4219567F20038492F /* CEPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3694EB3219567F20038492F /* CEPUITests.swift */; };
+		F3694EC2219586400038492F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3694EC1219586400038492F /* Extensions.swift */; };
+		F3694EC421958A590038492F /* roboto in Resources */ = {isa = PBXBuildFile; fileRef = F3694EC321958A590038492F /* roboto */; };
+		F37C2B85219712CF0097BA5F /* IndustryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C2B84219712CF0097BA5F /* IndustryViewController.swift */; };
+		F37C2B8721986B7C0097BA5F /* BusinessSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C2B8621986B7C0097BA5F /* BusinessSettingsViewController.swift */; };
+		F3DA7FC821B063DE0028D279 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3694EAA219567F20038492F /* Info.plist */; };
+		F3EFEBB521B57EE900B1BD6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFEBB421B57EE900B1BD6C /* HomeViewController.swift */; };
+		F3EFEBB621B90B0D00B1BD6C /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F5AD21AD1885004D8809 /* ApiHelper.swift */; };
+		F3F4D8532196FE8200391D1D /* VerifyPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4D8522196FE8100391D1D /* VerifyPinViewController.swift */; };
+		F3F4D855219704DF00391D1D /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4D854219704DF00391D1D /* SetPasswordViewController.swift */; };
+		F6B9DD5512658AD13DD132DB /* Pods_CEPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B392A382A3876B28B217C0 /* Pods_CEPTests.framework */; };
+		FBADC430D06BCDAC52AAAA9B /* Pods_CEP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F42E03F2F0ED1AF5592EAE /* Pods_CEP.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		137EE316C5885AFF80EBA305 /* Pods-CEP-CEPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEP-CEPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEP-CEPTests/Pods-CEP-CEPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABF242A36F70DAD511FB738 /* Pods-CEPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEPTests/Pods-CEPTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FF4B7C57FD355F1497D0803 /* Pods-CEP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEP/Pods-CEP.debug.xcconfig"; sourceTree = "<group>"; };
+		3178DCF365F95EEE0596645B /* Pods_CEP_CEPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEP_CEPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F42E03F2F0ED1AF5592EAE /* Pods_CEP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA5B2F0C26E74CFF080C2CD /* Pods-CEPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEPTests/Pods-CEPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		456782A8625F30617C18E240 /* Pods-CEPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEPUITests/Pods-CEPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78E5E5C733D1BA7E2CEC3E8C /* Pods-CEP-CEPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEP-CEPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEP-CEPTests/Pods-CEP-CEPTests.release.xcconfig"; sourceTree = "<group>"; };
+		79B392A382A3876B28B217C0 /* Pods_CEPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3E6DC3AA121D578DD6ADB0 /* Pods_CEPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B05FA50DF59E742BA8025AC /* Pods-CEP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEP.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEP/Pods-CEP.release.xcconfig"; sourceTree = "<group>"; };
+		F31A951721BF853F00387575 /* StoreSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSettingsViewController.swift; sourceTree = "<group>"; };
+		F355F5AD21AD1885004D8809 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		F355F5AF21AD1A3E004D8809 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		F355F5B121AE558A004D8809 /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		F35CAEDE21B05BBF0066A5DC /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F361DE4421C007C60003368B /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F361DE4621C128D60003368B /* InvoicePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicePreviewViewController.swift; sourceTree = "<group>"; };
+		F361DE4821C1787D0003368B /* InvoiceSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceSettingsViewController.swift; sourceTree = "<group>"; };
+		F361DE4A21C283220003368B /* PreviewInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewInvoiceViewController.swift; sourceTree = "<group>"; };
 		F3694E90219567F00038492F /* CEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3694E93219567F00038492F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3694E95219567F00038492F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +89,14 @@
 		F3694EAF219567F20038492F /* CEPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3694EB3219567F20038492F /* CEPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEPUITests.swift; sourceTree = "<group>"; };
 		F3694EB5219567F20038492F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3694EC1219586400038492F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3694EC321958A590038492F /* roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roboto; sourceTree = "<group>"; };
+		F37C2B84219712CF0097BA5F /* IndustryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryViewController.swift; sourceTree = "<group>"; };
+		F37C2B8621986B7C0097BA5F /* BusinessSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSettingsViewController.swift; sourceTree = "<group>"; };
+		F3EFEBB421B57EE900B1BD6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3F4D8522196FE8100391D1D /* VerifyPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPinViewController.swift; sourceTree = "<group>"; };
+		F3F4D854219704DF00391D1D /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		FBF4A139DECA7A11BA80F872 /* Pods-CEPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEPUITests/Pods-CEPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F361DE4521C007C60003368B /* iOSDropDown.framework in Frameworks */,
+				FBADC430D06BCDAC52AAAA9B /* Pods_CEP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984C6A05FD89467CC3346410 /* Pods_CEP_CEPTests.framework in Frameworks */,
+				F6B9DD5512658AD13DD132DB /* Pods_CEPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +122,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CA285039299A3018F3EE94 /* Pods_CEPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DECBBB81496FA9C4DFD0ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4B7C57FD355F1497D0803 /* Pods-CEP.debug.xcconfig */,
+				9B05FA50DF59E742BA8025AC /* Pods-CEP.release.xcconfig */,
+				137EE316C5885AFF80EBA305 /* Pods-CEP-CEPTests.debug.xcconfig */,
+				78E5E5C733D1BA7E2CEC3E8C /* Pods-CEP-CEPTests.release.xcconfig */,
+				FBF4A139DECA7A11BA80F872 /* Pods-CEPUITests.debug.xcconfig */,
+				456782A8625F30617C18E240 /* Pods-CEPUITests.release.xcconfig */,
+				3BA5B2F0C26E74CFF080C2CD /* Pods-CEPTests.debug.xcconfig */,
+				2ABF242A36F70DAD511FB738 /* Pods-CEPTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D774CC768206EE1723F5BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F361DE4421C007C60003368B /* iOSDropDown.framework */,
+				F35CAEDE21B05BBF0066A5DC /* Kingfisher.framework */,
+				32F42E03F2F0ED1AF5592EAE /* Pods_CEP.framework */,
+				3178DCF365F95EEE0596645B /* Pods_CEP_CEPTests.framework */,
+				9A3E6DC3AA121D578DD6ADB0 /* Pods_CEPUITests.framework */,
+				79B392A382A3876B28B217C0 /* Pods_CEPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3694E87219567F00038492F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +164,8 @@
 				F3694EA7219567F20038492F /* CEPTests */,
 				F3694EB2219567F20038492F /* CEPUITests */,
 				F3694E91219567F00038492F /* Products */,
+				1DECBBB81496FA9C4DFD0ECE /* Pods */,
+				5D774CC768206EE1723F5BB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +184,23 @@
 			children = (
 				F3694E93219567F00038492F /* AppDelegate.swift */,
 				F3694E95219567F00038492F /* ViewController.swift */,
+				F3F4D8522196FE8100391D1D /* VerifyPinViewController.swift */,
+				F355F5B121AE558A004D8809 /* EnterPasswordViewController.swift */,
+				F3F4D854219704DF00391D1D /* SetPasswordViewController.swift */,
+				F37C2B8621986B7C0097BA5F /* BusinessSettingsViewController.swift */,
+				F37C2B84219712CF0097BA5F /* IndustryViewController.swift */,
+				F3EFEBB421B57EE900B1BD6C /* HomeViewController.swift */,
+				F31A951721BF853F00387575 /* StoreSettingsViewController.swift */,
+				F361DE4621C128D60003368B /* InvoicePreviewViewController.swift */,
+				F361DE4821C1787D0003368B /* InvoiceSettingsViewController.swift */,
+				F361DE4A21C283220003368B /* PreviewInvoiceViewController.swift */,
+				F3694EC1219586400038492F /* Extensions.swift */,
+				F355F5AD21AD1885004D8809 /* ApiHelper.swift */,
+				F355F5AF21AD1A3E004D8809 /* EndPoints.swift */,
 				F3694E97219567F00038492F /* Main.storyboard */,
 				F3694E9A219567F10038492F /* Assets.xcassets */,
 				F3694E9C219567F10038492F /* LaunchScreen.storyboard */,
+				F3694EC321958A590038492F /* roboto */,
 				F3694E9F219567F10038492F /* Info.plist */,
 			);
 			path = CEP;
@@ -132,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3694EB8219567F20038492F /* Build configuration list for PBXNativeTarget "CEP" */;
 			buildPhases = (
+				AD601E8717CC8FDBEB9ECA33 /* [CP] Check Pods Manifest.lock */,
 				F3694E8C219567F00038492F /* Sources */,
 				F3694E8D219567F00038492F /* Frameworks */,
 				F3694E8E219567F00038492F /* Resources */,
+				6795D5DD924527BF1A20BCF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3694EBB219567F20038492F /* Build configuration list for PBXNativeTarget "CEPTests" */;
 			buildPhases = (
+				A2E5171CE73C5EB9C3C974CB /* [CP] Check Pods Manifest.lock */,
 				F3694EA0219567F20038492F /* Sources */,
 				F3694EA1219567F20038492F /* Frameworks */,
 				F3694EA2219567F20038492F /* Resources */,
@@ -167,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3694EBE219567F20038492F /* Build configuration list for PBXNativeTarget "CEPUITests" */;
 			buildPhases = (
+				99267EC1E3BD6D4CC6F1D612 /* [CP] Check Pods Manifest.lock */,
 				F3694EAB219567F20038492F /* Sources */,
 				F3694EAC219567F20038492F /* Frameworks */,
 				F3694EAD219567F20038492F /* Resources */,
@@ -229,9 +332,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DA7FC821B063DE0028D279 /* Info.plist in Resources */,
 				F3694E9E219567F10038492F /* LaunchScreen.storyboard in Resources */,
 				F3694E9B219567F10038492F /* Assets.xcassets in Resources */,
 				F3694E99219567F00038492F /* Main.storyboard in Resources */,
+				F3694EC421958A590038492F /* roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +356,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6795D5DD924527BF1A20BCF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CEP/Pods-CEP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CEP/Pods-CEP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99267EC1E3BD6D4CC6F1D612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E5171CE73C5EB9C3C974CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD601E8717CC8FDBEB9ECA33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3694E8C219567F00038492F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37C2B85219712CF0097BA5F /* IndustryViewController.swift in Sources */,
+				F355F5B021AD1A3E004D8809 /* EndPoints.swift in Sources */,
 				F3694E96219567F00038492F /* ViewController.swift in Sources */,
+				F3694EC2219586400038492F /* Extensions.swift in Sources */,
 				F3694E94219567F00038492F /* AppDelegate.swift in Sources */,
+				F355F5AE21AD1885004D8809 /* ApiHelper.swift in Sources */,
+				F361DE4721C128D60003368B /* InvoicePreviewViewController.swift in Sources */,
+				F3F4D8532196FE8200391D1D /* VerifyPinViewController.swift in Sources */,
+				F31A951821BF853F00387575 /* StoreSettingsViewController.swift in Sources */,
+				F3EFEBB521B57EE900B1BD6C /* HomeViewController.swift in Sources */,
+				F37C2B8721986B7C0097BA5F /* BusinessSettingsViewController.swift in Sources */,
+				F355F5B221AE558B004D8809 /* EnterPasswordViewController.swift in Sources */,
+				F3F4D855219704DF00391D1D /* SetPasswordViewController.swift in Sources */,
+				F361DE4B21C283220003368B /* PreviewInvoiceViewController.swift in Sources */,
+				F361DE4921C1787D0003368B /* InvoiceSettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35CAEDD21B05A880066A5DC /* IndustryViewController.swift in Sources */,
 				F3694EA9219567F20038492F /* CEPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EFEBB621B90B0D00B1BD6C /* ApiHelper.swift in Sources */,
 				F3694EB4219567F20038492F /* CEPUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,11 +651,13 @@
 		};
 		F3694EB9219567F20038492F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF4B7C57FD355F1497D0803 /* Pods-CEP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47H7C28ZU3;
 				INFOPLIST_FILE = CEP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +671,13 @@
 		};
 		F3694EBA219567F20038492F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B05FA50DF59E742BA8025AC /* Pods-CEP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47H7C28ZU3;
 				INFOPLIST_FILE = CEP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +691,7 @@
 		};
 		F3694EBC219567F20038492F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA5B2F0C26E74CFF080C2CD /* Pods-CEPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +713,7 @@
 		};
 		F3694EBD219567F20038492F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABF242A36F70DAD511FB738 /* Pods-CEPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +735,7 @@
 		};
 		F3694EBF219567F20038492F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF4A139DECA7A11BA80F872 /* Pods-CEPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +756,7 @@
 		};
 		F3694EC0219567F20038492F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456782A8625F30617C18E240 /* Pods-CEPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
